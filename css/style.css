@@ -11,7 +11,7 @@ iframe {
 /*スクロールコンテン*/
 .scrollable-container {
     width: 500px;    /* コンテナの幅 */
-    height: 200px;   /* コンテナの高さ */
+    height: 400px;   /* コンテナの高さ */
     border: 1px solid #ccc; /* 境界線のスタイル */
     overflow: auto;  /* スクロールバーの自動表示 */
     padding: 15px;   /* 内部の余白 */
@@ -19,7 +19,7 @@ iframe {
 
 /*ポスター画像*/
 .festival_poster {   
-    height: 200px; 
+    height: 400px; 
 }
 
 /*タイトル画像*/
@@ -138,4 +138,10 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1000;
+}
+
+
+
+.main-akuseus{
+    height: 40%;
 }
