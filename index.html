@@ -10,7 +10,7 @@
    <!-- Bootstrap -->
    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
    <link href="css/custom-timetable.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -24,23 +24,61 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
-          
-            <li class="nav-item"> <a class="nav-link" href="">　</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="about.html">概要</a> </li>
-			 <li class="nav-item"> <a class="nav-link" href="announce.html">ご案内</a></li>
-            <li class="nav-item"> <a class="nav-link" href="event.html">企画一覧</a></li>
-			 <li class="nav-item"> <a class="nav-link" href="sponsors.html">協賛</a></li>
-           
+
+            <li class="nav-item"> <a class="nav-link " href="">　</a> </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="about.html" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">概要</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about.html#gaiyou">概要</a>
+                  <a class="dropdown-item" href="about.html#goaisatu">ごあいさつ</a>
+                  <a class="dropdown-item" href="about.html#jikkoukara">幾徳祭実行委員会から</a>
+               </div>
+            </li>
+
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="announce.html" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">ご案内</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="announce.html#minasamae">ご来場の皆様へ</a>
+                  <a class="dropdown-item" href="announce.html#akusesu">アクセス</a>
+
+               </div>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="event.html">企画一覧</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="announce.html" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">企画一覧</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="event.html#bingo">ビンゴ</a>
+                  <a class="dropdown-item" href="event.html#sute-ziibento">ステージイベント</a>
+                  <a class="dropdown-item" href="event.html#enniti">縁日</a>
+                  <a class="dropdown-item" href="event.html#innsyokuyatai">飲食屋台</a>
+                  <a class="dropdown-item" href="event.html#kenkyusitu">研究室公開</a>
+                  <a class="dropdown-item" href="event.html#kougitisu">講義室展示</a>
+
+               </div>
+            </li>
+
+            <li class="nav-item">
+               <a class="nav-link" href="sponsors.html">協賛</a>
+            </li>
+            <!-- -->
+
+            <!-- -->
          </ul>
+
       </div>
    </nav>
    <!--ヘッダー終わり-->
    <!--タイトル-->
    <div class="jumbotron jumbotron-fluid text-center">
       <!-- <h1 class="display-4"></h1> -->
-	    <img class="title-pic" src="images/title1.png" alt="title-pic">
-	   <h3>各日9：30～18：00</h3>
-	   <h3>テーマ：蝶</h3>
+      <img class="title-pic" src="images/title1.png" alt="title-pic">
+      <h3>各日9：30～18：00</h3>
+      <h3>テーマ：蝶</h3>
       <hr class="my-4">
 
    </div>
@@ -52,8 +90,8 @@
       <!-- ここに長いコンテンツを追加 -->
       <div class="row text-center">
          <div class="col-lg-6 offset-lg-3">
-			 <br>
-		<!--迷子案内
+            <br>
+            <!--迷子案内
     <div class="lost-notice">
         <h1>迷子情報</h1>
         <p>名前: <strong>山田太郎</strong></p>
@@ -62,8 +100,8 @@
         <p>最後に見かけた場所: <strong>公園の遊び場</strong></p>
     </div>
     迷子案内終わり -->
-			 <br> 
-		  </div>
+            <br>
+         </div>
       </div>
       <div class="row">
          <!--スクロールコンテンツ-->
@@ -147,7 +185,7 @@
          <!--タイムテーブル終わり-->
       </div>
       <br>
-	   <br>
+      <br>
       <hr>
       <br>
       <!--イベント一覧-->
