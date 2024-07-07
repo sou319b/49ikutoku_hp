@@ -10,7 +10,7 @@ iframe {
 
 /*スクロールコンテン*/
 .scrollable-container {
-    width: 500px;    /* コンテナの幅 */
+    width: 100%;    /* コンテナの幅 */
     height: 400px;   /* コンテナの高さ */
     border: 1px solid #ccc; /* 境界線のスタイル */
     overflow: auto;  /* スクロールバーの自動表示 */
@@ -24,8 +24,10 @@ iframe {
 
 /*タイトル画像*/
 .title-pic {
-	
-	height: 80%;
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
 }
 
 /*禁止事項*/
@@ -141,7 +143,15 @@ body {
 }
 
 
-
+/*アクセス画像 */
 .main-akuseus{
-    height: 40%;
+    height: 80%;
+    width: 80%;
+}
+
+
+/*ふらいとくん画像 */
+.huraitokun {
+    height: 100%;
+    width: 100%;
 }
