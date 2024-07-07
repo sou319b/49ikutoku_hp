@@ -1,6 +1,16 @@
 7/7追加
  python -m http.server 8000
  で表示してください
+ 
+開放
+netsh advfirewall firewall add rule name="Open Port 8000" dir=in action=allow protocol=TCP localport=8000
+
+閉じる
+netsh advfirewall firewall delete rule name="Open Port 8000"
+
+確認
+netsh advfirewall firewall show rule name="Open Port 8000"
+
 
 HPについて報告します。
 
